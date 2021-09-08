@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>memverForm</title>
+</head>
+<body>
+
+	<form action="memberFormExe" method="post">
+		
+		아이디 : <input type="text" name="id" size="10"><br/>
+		비밀번호 : <input type="password" name="pw" size="10"><br/>
+		이름 : <input type="text" name="name" size="10"><br/>
+		E-mail : <input type="text" name="email_1" size="30">@
+			<select name="email_2">
+				<option value="naver.com"selected="selected">naver.com</option>
+				<option value="daum.net">daum.net</option>
+				<option value="gmail.com">gmail.com</option>
+				<option value="nate.com">nate.com</option>
+			</select><br/>
+		직업 : <input type="text" name="job" size="15"><br/>
+		
+		<input type="submit" value="전송"><input type="reset" value="초기화">
+	
+	</form>
+
+</body>
+</html>
